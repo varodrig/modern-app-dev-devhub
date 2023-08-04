@@ -48,9 +48,9 @@ spec:
           type: string
           description: This action will create a CI pipeline for your application based on
             chosen method
-          default:  https://gitea.apps.cluster-l2xs2.sandbox2738.opentlc.com/user1/modern-app-dev/src/branch/main/dev-hub-templates/orders-app/pipeline-java-deployment.yaml
+          default:  ../../custom-templates/helm/cicd/
           enum:
-            -  https://gitea.apps.cluster-l2xs2.sandbox2738.opentlc.com/user1/modern-app-dev/src/branch/main/dev-hub-templates/orders-app/pipeline-java-deployment.yaml
+            -  ../../custom-templates/helm/cicd/
           enumNames:
             - Tekton
       dependencies:
@@ -58,13 +58,13 @@ spec:
           oneOf:
             - properties:
                 ci:
-                  const: https://gitea.apps.cluster-l2xs2.sandbox2738.opentlc.com/user1/modern-app-dev/src/branch/main/dev-hub-templates/orders-app/pipeline-java-deployment.yaml
+                  const: ../../custom-templates/helm/cicd/
             - required:
                 - imageRepository
                 - namespace
               properties:
                 ci:
-                  const:  https://gitea.apps.cluster-l2xs2.sandbox2738.opentlc.com/user1/modern-app-dev/src/branch/main/dev-hub-templates/orders-app/pipeline-java-deployment.yaml
+                  const:  ../../custom-templates/helm/cicd/
                 imageRepository:
                   title: Select a registry
                   type: string
