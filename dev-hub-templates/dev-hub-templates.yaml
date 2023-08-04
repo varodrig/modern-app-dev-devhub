@@ -6,5 +6,5 @@ metadata:
 spec:
   type: url
   targets:
-   - https://github.com/varodrig/moder-app-dev-devhub-test/blob/test/dev-hub-templates/orders-app/template.yaml
+   - https://github.com/varodrig/modern-app-dev-devhub/tree/test/dev-hub-templates/orders-app/template.yaml
     
