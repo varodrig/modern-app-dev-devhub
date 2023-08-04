@@ -97,7 +97,7 @@ spec:
         allowedHosts:
           - github.com
         description: ${{parameters.description}}
-        repoUrl: github.com?owner=${{parameters.githubOrg}}&repo=${{parameters.namespace}}-backend
+        repoUrl: github.com?owner=${{parameters.owner}}&repo=${{parameters.namespace}}-backend
         defaultBranch: main
         protectDefaultBranch: false
         repoVisibility: public
