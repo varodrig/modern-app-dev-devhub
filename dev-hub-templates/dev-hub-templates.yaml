@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: software-templates
+  description: A collection of Backstage templates for Janus-IDP
+spec:
+  type: url
+  targets:
+   - https://gitea.apps.cluster-l2xs2.sandbox2738.opentlc.com/user1/modern-app-dev/src/branch/main/dev-hub-templates/orders-app/template.yaml
+    
